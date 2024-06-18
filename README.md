@@ -7,3 +7,6 @@ To tackle these challenges head-on, this repository delves into open-source tool
 🔐 Why pay for storing credentials in a Key Vault when you have powerful options available for free through open-source tools? Explore how these tools can meet your security needs while maintaining cost-efficiency and flexibility.
 
 The repository's focus on practical solutions using open-source tools, highlighting the cost-effectiveness and flexibility they offer compared to proprietary solutions like Key Vault. It aims to attract enterprises seeking comprehensive guidance on secure credential management across heterogeneous environments. Safeguard application secrets with confidence !
+
+This repositry has contributions to only Free and Open source tools used to safeguard and manage your secrets for Fort Knox Security!
+
