@@ -31,3 +31,4 @@
 
 Overall, HashiCorp Vault is designed to address the challenges of securely managing secrets and sensitive data in modern, dynamic infrastructure environments, ensuring compliance, security, and operational efficiency.
 
+For more information : https://developer.hashicorp.com/vault/docs/what-is-vault
