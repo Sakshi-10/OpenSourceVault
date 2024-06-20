@@ -33,7 +33,7 @@ This is a prove that I am not using permanent static creds
 
 The above operations are based on the permissions you mentioned in the policy.json 
 To recollect Look at the policy_document:
-![image](https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/10b2cbf8-d005-446c-99cd-b72ca2ab394e)
+![image](https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/0575a8c1-55fe-4227-ad0b-3b4297d2d4f6)
 
 To list all of your buckets, you must have the s3:ListAllMyBuckets permission. Doc : https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html#access-bucket-console-ex![image](https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/03c33b38-973c-4446-a291-ca1063fa1198)
 
