@@ -56,19 +56,20 @@ Create a policy :
 >>vault write aws/roles/foss-sakshi-role credential_type=iam_user policy_document=@policy.json
 foss-sakshi-role is the  unique role name
 
-![image](https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ba9a82cb-c608-44ef-80e9-ce6f9e469793)
+<img width="1684" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/a99aff0e-e48a-4a62-886b-40bc20aa0647">
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## REDAING AND GENERATING DYNAMIC CREDENTIALS 
+## READING AND GENERATING DYNAMIC CREDENTIALS 
 
 When you hit the read request then the dynamic credentials are created 
 To be able to read the credentials the role "foss-sakshi-role" (AWS IAM ROLE mentioned in the prereq) needs permission of "iam:CreateUser","iam:PutUserPolicy","iam:CreateAccessKey"
 <img width="1710" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ce738fa4-0455-4cac-98bc-37eb0e3dc99a">
 
 Now the AWS secret engine is enabled and configured with a Role. Now we can ask Vault to generate an access key pair for that role by reading the aws/creds/roleName
-<img width="1684" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/a99aff0e-e48a-4a62-886b-40bc20aa0647">
+<img width="1684" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/f6b59c0b-a554-4ad6-b847-5c00693682b0">
 
+Dynamic Credential Diagram
 <img width="1088" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ebba8151-31ab-4ab7-a8b6-be43e393b81d">
 
 The accesskey and secret key can be used to perform any s3 operation(specified within the role permissions)
