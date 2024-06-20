@@ -67,7 +67,7 @@ To be able to read the credentials the role "foss-sakshi-role" (AWS IAM ROLE men
 <img width="1710" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ce738fa4-0455-4cac-98bc-37eb0e3dc99a">
 
 Now the AWS secret engine is enabled and configured with a Role. Now we can ask Vault to generate an access key pair for that role by reading the aws/creds/roleName
-<img width="1684" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/f6b59c0b-a554-4ad6-b847-5c00693682b0">
+<img width="1684" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ae60f095-b239-40ba-8cda-d04c98029313">
 
 Dynamic Credential Diagram
 <img width="1088" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/ebba8151-31ab-4ab7-a8b6-be43e393b81d">
