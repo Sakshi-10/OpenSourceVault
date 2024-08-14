@@ -1,13 +1,3 @@
-# "Dynamic Secrets: Unleashing the Thor's Hammer ⚒️ of FOSS Security"
-
- Dive into the world of open-source excellence with HashiCorp Vault, a robust solution for securely managing and storing credentials in applications. Discover practical approaches, best practices, and diverse perspectives to effectively navigate the complexities of credential management.
-
-HashiCorp Vault, often called Vault, dynamically generates secrets on-demand for various systems, significantly reducing the risk of long-lived secrets being compromised. For instance, it can create short-lived database credentials and AWS bucket session tokens with short TTLs.
-
-Let's mitigate these risks by harnessing the power💪🏻 of FOSS (Free and Open Source Software). 
-
-👥 Join us as we explore "FOSS and Furious💨: Dynamic Secrets Unleashed" to revolutionize your security approach.
-
  # 🎯Sequence :
 1) **Introduction** : What is HashiCorp Vault and it's Key Aspects?
 2) **Installation** : Step wise procedure to setup Hashicorp from scratch on your PC
@@ -19,3 +9,14 @@ Let's mitigate these risks by harnessing the power💪🏻 of FOSS (Free and Ope
 8) **Lease : renewal, revocation and inspection** : Understanding the lease and revocating the dynamic credentials ahead of expiry
 9) **AddingTTL (Expiry)** : Creating a short lived 20 mins expiry Session Token , Monitoring post expiry
 10) **Disabling AWS Secret Engine** : Steps to stop the aws secret engine securely
+
+
+# "Dynamic Secrets: Unleashing the Thor's Hammer ⚒️ of FOSS Security"
+
+ Dive into the world of open-source excellence with HashiCorp Vault, a robust solution for securely managing and storing credentials in applications. Discover practical approaches, best practices, and diverse perspectives to effectively navigate the complexities of credential management.
+
+HashiCorp Vault, often called Vault, dynamically generates secrets on-demand for various systems, significantly reducing the risk of long-lived secrets being compromised. For instance, it can create short-lived database credentials and AWS bucket session tokens with short TTLs.
+
+Let's mitigate these risks by harnessing the power💪🏻 of FOSS (Free and Open Source Software). 
+
+👥 Join us as we explore "FOSS and Furious💨: Dynamic Secrets Unleashed" to revolutionize your security approach.
