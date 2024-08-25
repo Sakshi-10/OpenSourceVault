@@ -55,7 +55,7 @@ Notice : version says 2 :Passing optional parameter -version
 TIP : You could see that when I created the dbid and dbpwd I was manually typing -> this can have some security breach as the history may reveal the password 
 You want to avoid exposing the password
 
-Use : kv put -mount=secret MyNewApp token=- 
+Use : vault kv put -mount=secret MyNewApp token=- 
 
 This would allow you to type the pwd without displaying it and once you are done type ^Z to exit
 <img width="1710" alt="image" src="https://github.com/Sakshi-10/OpenSourceVault/assets/64091618/b29c6daf-b2bc-4cca-b0a6-ef41ee0948f7">
